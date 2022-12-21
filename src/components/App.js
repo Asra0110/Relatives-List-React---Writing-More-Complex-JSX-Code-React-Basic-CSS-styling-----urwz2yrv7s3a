@@ -1,27 +1,15 @@
-import React, {Component, useState} from "react";
-import '../styles/App.css';
+import React, { Component } from "react";
+import './App.css';
 
-class App extends Component {
-    render() {
 
-        return(
-            <div id="main">
-               {/* Do not remove the main div */}
-            </div>
-        )
-    }
-}import React from "react";
-import '../styles/App.css';
-import Welcome from './Welcome';
-
-const App = () => {
+export const App = () => {
   return (
-    <Welcome name= "salman" />
+    <ol key={"relativeList"}>
+    <li key={'relativeListItem1'}>Asra</li>
+    < li key={'relativeListItem2'} >Asmat</li>
+    < li key={'relativeListItem3'} >Shifa</li>
+</ol>
   )
 }
 
-
 export default App;
-
-
-export default App;
